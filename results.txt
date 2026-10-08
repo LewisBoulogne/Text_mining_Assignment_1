@@ -1,0 +1,11 @@
+{'Feature': 'tf-idf', 'Classifier': 'Linear SVC', 'Precision': 0.8513737648934537, 'Recall': 0.845836571817482, 'F1-Score': 0.8464878396886357}
+  Feature           Classifier  Precision    Recall  F1-Score
+0  counts  Logistic Regression   0.785055  0.781394  0.781299
+1  counts       Multinomial NB   0.762163  0.763646  0.745098
+2  counts           Linear SVC   0.782107  0.779329  0.778852
+3      tf  Logistic Regression   0.724301  0.714471  0.713149
+4      tf       Multinomial NB   0.792431  0.682195  0.672783
+5      tf           Linear SVC   0.820968  0.816334  0.816050
+6  tf-idf  Logistic Regression   0.829263  0.818375  0.819748
+7  tf-idf       Multinomial NB   0.825531  0.756525  0.755754
+8  tf-idf           Linear SVC   0.851374  0.845837  0.846488
