@@ -28,7 +28,7 @@ def load_dataset(dataset, vectorizer, verbose=False, remove=()):
 
     # order of labels in `target_names` can be different from `categories`
     target_names = data_train.target_names
-    print(target_names)
+    # print(target_names)
 
     # split target in a training set and a test set
     y_train, y_test = data_train.target, data_test.target
