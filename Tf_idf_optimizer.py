@@ -40,7 +40,7 @@ def run_parameter_group_experiment(param_name, param_configs, base_params, resul
             y_train,
             cv=5,
             scoring='f1_macro',
-            n_jobs=-1,
+            n_jobs=1,
             train_sizes=np.linspace(0.1, 1.0, 5)
         )
 
@@ -129,3 +129,5 @@ if __name__ == '__main__':
     df_results = pd.DataFrame(results)
     print("\n================ Task 4 Results Summary ================")
     print(df_results.to_string(index=False))
+
+    
