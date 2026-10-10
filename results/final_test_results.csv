@@ -1,0 +1,2 @@
+Feature,Classifier,lowercase,stop_words,analyzer,ngram_range,max_features,Evaluation split,Precision,Recall,F1-Score,Accuracy,Vectorize train (s),Vectorize test (s),Fit (s),Predict (s)
+TF-IDF Vectorizer,Linear SVC,False,,word,"(1, 1)",,test,0.8482798792596326,0.8432528024434461,0.8438073844350986,0.8505045140732873,1.4737398624420166,0.7555220127105713,1.3734350204467773,0.014076948165893555
